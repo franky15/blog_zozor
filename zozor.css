@@ -1,0 +1,300 @@
+body
+{
+    background-image: url("fond_jaune.png"); 
+    color: #181818;
+}
+
+.bloc_page
+{   
+    width: 98%;
+    margin: auto;
+}
+
+header
+{   
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre_principal
+{   
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    
+
+}
+
+.logo
+{
+    display: flex;
+    margin-top: 4px;
+    
+    
+}
+
+.logo h1
+{
+    margin-left: 3px;
+    margin-bottom: -10px;
+}
+
+.zozor_logo
+{
+    margin-top: -10px ;
+}
+
+.titre_principal h2
+{
+    margin-top: 4px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+
+nav li
+{
+    margin-right: 15px;
+    
+}
+
+nav a
+{
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav
+{
+    
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+
+.baniere_image
+{ 
+    
+  position: relative;
+  background-image: url('sanfrancisco.jpg');
+  width: 90%;
+  height: 200px;
+  margin: auto; 
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #1c1a19 ; 
+
+}
+
+.separateur
+{
+    
+    background: url("separateur.png") repeat-x;
+    background-position: top;
+    height: 10px;
+
+    
+
+}
+
+.description_baniere
+{   
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.8);
+    color: white;
+
+
+}
+
+.description_baniere p
+{
+    margin-left: 10px;
+}
+.bouton
+{
+    background: url('fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 80px;
+    margin-right: 10px;
+
+}
+
+.bouton a
+{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    margin: auto;
+    font-size: 0.7em;
+}
+
+section
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+}
+
+article
+{
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 30px;
+    text-align: justify;
+    font-size: 1.1em;
+
+
+}
+
+aside
+{  
+    width: 25%;
+    background-color: #6f6a63;
+    border: 1px solid #6f6a63;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px ;
+    margin-top: 20px;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+
+
+}
+
+.fleche_bulle
+{
+    
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 368px;
+    bottom: 250px;
+
+}
+
+.zozor_classe
+{
+    
+    height: 120px;
+    width: 50%;
+    margin-left: 60px;
+
+}
+
+aside p
+{
+    font-size: 0.8em;
+}
+
+aside img
+{
+    margin-right: 5px;
+    margin-left: 4px;
+    
+}
+aside h1
+{
+    text-align: center;
+}
+
+.reseaux_sociaux
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ombre
+{
+    position: relative;
+    background: url("ombre.png") repeat-x;
+    height: 15px;
+    margin-top: 20px;
+
+}
+
+.separateur2
+{
+    
+    position: absolute;
+    width: 100%;
+    height: 2px;
+
+}
+
+.ico_top
+{
+    position: absolute;
+    right: 800px;
+    margin-top: -15px;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mes_photos
+{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.mes_photos p
+{
+    margin-right: 5px;
+}
+
+.mes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -38px ;
+}
+
+.mes_amis li
+{
+    list-style-type: none;
+}
+
+.mes_amis a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
